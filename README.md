@@ -35,6 +35,7 @@ For example:
 		}]
 
 	A user types "Sep" in the search bar. The following transactions would show up:
+```
 		[{
 			name: "Nicole Stevens",
 			for: "Drinks",
@@ -53,17 +54,19 @@ For example:
 			date: "April 26th",
 			amount: "$1500.00"
 		}]
-
+```
 HINT: Write a function that will draw transactions to the screen given a list of transactions
 
 HINT: Use .filter() and .on('input', ...)
 
 HINT: I have included CSS for transaction rows. A transaction row should look like this:
+```html
 <div class="transaction">
 	<div class="name">Name</div>
 	<div class="for">For</div>
 	<div class="date">Date</div>
 	<div class="amount">Amount</div>
 </div>
+```
 
 BONUS: underscore-min.js is a library that I've included in this project. Try reading their documentation and use their functions for filtering collections!
