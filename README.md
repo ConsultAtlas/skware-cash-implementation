@@ -15,8 +15,9 @@ You will find a folder named "src" and a folders named "lib". Src contains these
 
 Your task is to implement search bar filtering with JQuery and Javascript! When a user types into the search bar at the top of the page, the list of transactions should filter down to only the ones that contain the search string.
 
-For example:
-	Given these three transactions:
+For example, given these three transactions:
+
+```
 		[{
 			name: "Virgil Szaruga",
 			for: "Rent",
@@ -33,8 +34,10 @@ For example:
 			date: "July 26th",
 			amount: "$15.12"
 		}]
+```
 
 	A user types "Sep" in the search bar. The following transactions would show up:
+
 ```
 		[{
 			name: "Nicole Stevens",
@@ -47,7 +50,11 @@ For example:
 			date: "July 26th",
 			amount: "$15.12"
 		}]
+```
+
 	And the following transactions wouldn't show up:
+
+```
 		[{
 			name: "Virgil Szaruga",
 			for: "Rent",
@@ -55,6 +62,7 @@ For example:
 			amount: "$1500.00"
 		}]
 ```
+
 HINT: Write a function that will draw transactions to the screen given a list of transactions
 
 HINT: Use .filter() and .on('input', ...)
